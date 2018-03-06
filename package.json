@@ -1,0 +1,15 @@
+{
+  "name": "@trustkey/algorithms",
+  "version": "0.0.1",
+  "main": "module.js",
+  "private": true,
+  "plugin": {
+    "consumes": [
+      "core",
+      "promise"
+    ]
+  },
+  "dependencies": {
+    "jsonschema": "^1.2.2"
+  }
+}
