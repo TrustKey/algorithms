@@ -2,13 +2,14 @@
 
 Algorithms for TrustKey [supervisor][0]. 
 
-##random_int_rs0
+## random_int_rs0
 Generates random integer in range from min to max(noninclusive) based on seed represented by base64 string, node.js Buffer or promise, returning string of buffer.
 Uses rejection sampling approach perfectly described by Dimitri DeFigueiredo [here][1].
 
 `May not generate result with ~1/(2^(seed_length / 4)) chance according to the rejection sampling approach. Use long enough seeds!`
 
-#####Examples using [supervisor][0] repl interface:
+
+##### Examples using [supervisor][0] repl interface:
 
 Create promise with argon2 seed generator:
 ```javascript
