@@ -26,15 +26,15 @@ Result:
 ```json
 { "success": true,
   "result": 
-   { "promise_alg": 'random_int_rs0',
+   { "promise_alg": "random_int_rs0",
      "min": 0,
      "max": 10,
      "seed": 
-      { "promise_alg": 'trustkey_argon2d',
-        "server_id": 'D000000000000000',
+      { "promise_alg": "trustkey_argon2d",
+        "server_id": "D000000000000000",
         "trustkey_ts": 1520364270,
         "b64_buffers": true,
-        "seed": '9thvN3DP9hn0MKwh9GCPe8D0RRfwwx4B1ORJaYDhc4TTMbWb1G6BPxP7+Yi0vLeOg5/MWkpT8DsYItn4SWKjFw==' } } }
+        "seed": "9thvN3DP9hn0MKwh9GCPe8D0RRfwwx4B1ORJaYDhc4TTMbWb1G6BPxP7+Yi0vLeOg5/MWkpT8DsYItn4SWKjFw==" } } }
 ```
 
 Resolving promise: 
