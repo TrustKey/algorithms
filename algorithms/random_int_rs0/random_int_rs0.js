@@ -15,7 +15,7 @@ module.exports = {
                 return reject({error_code: 2, error: errorCodes[2]});
 
             const result = rejectionSampling(seedBytes, request.min, request.max);
-            if(!result)
+            if(result === null)
                 return reject({
                     error_code: 5,
                     error: errorCodes[5]
