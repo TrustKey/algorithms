@@ -7,6 +7,10 @@
     "consumes": [
       "core",
       "promise"
+    ],
+    "provides": [
+      "random_int_rs0",
+      "random_int_rs0_constructor"
     ]
   },
   "dependencies": {
